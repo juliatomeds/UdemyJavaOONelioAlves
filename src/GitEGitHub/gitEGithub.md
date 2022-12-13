@@ -65,24 +65,24 @@ git init
 git add .
 git commit -m "Mensagem explicativa"
 git branch -M main
+```
+Agora cria um repositório no Github
+
+E associa ele no Git Bash
+![img_9.png](img_9.png)
+```bash
 git remote add origin git@github.com:seuusuario/seurepositorio.git
 git push -u origin main
 ```
+![img_11.png](img_11.png)
 
+Dessa forma, é possível visualizar os dados do pc no repositório do [GitHub](https://github.com/juliatomeds/UdemyJavaOONelioAlves) 
+![img_12.png](img_12.png)
 
-
-
-
-
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+### Passo a passo: salvar uma nova versão
+```bash
+git status
+git add .
+git commit -m "Mensagem explicativa"
+git push
 ```
