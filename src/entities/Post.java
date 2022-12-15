@@ -70,6 +70,7 @@ public class Post {
         comments.remove(comment);
     }
 
+    @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append(title + "\n");
@@ -78,7 +79,7 @@ public class Post {
         sb.append(sdf.format(moment) + "\n");
         sb.append(content + "\n");
         sb.append("Comments:\n");
-        for (Comment c : comments) {
+        for (Comment c : comments) { //para cada Comment c na lista de comentários comments
             sb.append(c.getText() + "\n");
         }
         return sb.toString();
