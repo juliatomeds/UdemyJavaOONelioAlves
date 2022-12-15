@@ -203,3 +203,17 @@ ATENÇÃO: ação destrutiva!
 ```bash
 git remote set-url origin git@github.com:seuusuario/seurepositorio.git
 ```
+
+### Creating project and git repository
+Checklist:
+Github: create a new project
+    NOTE: choose .gitignore type as Java
+Open a terminal in project folder, and perform the following commands:
+```bash
+ init
+git remote add origin https://github.com/acenelio/chess-system-java.git
+git pull origin master
+git add .
+git commit -m "Project created"
+git push -u origin master
+```
